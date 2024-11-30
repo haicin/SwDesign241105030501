@@ -20,7 +20,7 @@ Xử lý thanh toán lương nhân viên, bao gồm giao tiếp với ngân hàn
 
 ### Sơ đồ
 ```
-{Diagram!](https://www.planttext.com/api/plantuml/png/j98xRiCm38PtduB8r0pD0OGW2D8i1eh0W4z0gunhM0z3Zy5eSx8EFLAlK5bn7BbrnseXHFxwz8lKryVdtZeqpakHTSXRh0bM1VQIb2kCvcHjeseeVMLxwqYku2s3iBX0Qo48ZHRYIIitH39ZDQxkUdpKF7JOyrVYhMNmt5YtBSRzRXsFNB8O6kN8d94Jv0TKRHalNQOE5YSgWnjlpU2WjI1KAVVgzn-GDqqAHAczSWoEsbU2xdcIdT0zKNvaK3eJ6dklLS5QhixQI7IDLYnwJHBBZqa4CmES3mvENbPabkyweQHPPMJ_7kdZRZOB1jwIZTeqlNtVR9B-_iKAiAbZ36fIPD2DkAamg7w-ZW4F66oKpIxPdjJBy6E_0G00__y30000)
+![Diagram](https://www.planttext.com/api/plantuml/png/j98xRiCm38PtduB8r0pD0OGW2D8i1eh0W4z0gunhM0z3Zy5eSx8EFLAlK5bn7BbrnseXHFxwz8lKryVdtZeqpakHTSXRh0bM1VQIb2kCvcHjeseeVMLxwqYku2s3iBX0Qo48ZHRYIIitH39ZDQxkUdpKF7JOyrVYhMNmt5YtBSRzRXsFNB8O6kN8d94Jv0TKRHalNQOE5YSgWnjlpU2WjI1KAVVgzn-GDqqAHAczSWoEsbU2xdcIdT0zKNvaK3eJ6dklLS5QhixQI7IDLYnwJHBBZqa4CmES3mvENbPabkyweQHPPMJ_7kdZRZOB1jwIZTeqlNtVR9B-_iKAiAbZ36fIPD2DkAamg7w-ZW4F66oKpIxPdjJBy6E_0G00__y30000)
 ```
 
 ---
@@ -43,7 +43,7 @@ In phiếu lương nhân viên trên máy in được chỉ định.
 
 ### Sơ đồ
 ```
-[PayrollController] --> [IPrintService] --> [PrintService] --> [Printer]
+![Diagram](https://www.planttext.com/api/plantuml/png/h95BQWCn38RtSmgHLRDe3c1226atXL06vWIAgqnD_CAo2qERatMH8-KAzHWtdQHqLss4f5-V9FlyULfpn12JqOr7US2UODRYm5hvDYWRbUsXIpiUE9APmNi3sQH6PiYouBH-S3QEdaAj5lDZSmNndST1lf8yi82juhXiQxoQbuvZKrpkeB17IV1KPdSKtbIERh4Nd81lq5p0nZbDQAV0kkT_igfcoa7Zaeq27btQQVh9a_7Q3KJFQ4X05_EuVahy_NxtgvlB1IGcBkhhml9ZiRWwx2zYHbvs5j2JfO0n8u_DckpB-ErV0000__y30000)
 ```
 
 ---
@@ -66,7 +66,7 @@ Quản lý thông tin dự án, bao gồm mã dự án và thẻ thời gian c�
 
 ### Sơ đồ
 ```
-[TimecardController] --> [IProjectManagementDatabase] --> [ProjectManagementDatabase] --> [Database]
+![Diagram](https://www.planttext.com/api/plantuml/png/p99DRW8n38NtSmgB5KY50qG8eS86gKL8z08cuqw7vcSKEvLGoycww95wXGw1cKvLG5tMcoY9t_CNEv_l7rCM31AjoIhKprWGz5R1RqdBFRfwQya9hEE6TonaU_2QGHtQ83Cyb9OqXdpcdGHl38NJTGgRz4qEzybMnk-85dC5QmcbAsv0Fs4eQ1bjSpH8-dsMbj89XKVK18jVJ7CKt21Jjs91CciCkJzGS5UoZ8_6a--qMEKeBTWVkHJSUcy8NHVms8R_pDRMF9JhyhGkV0RbP75cliF9jLaeY4oSj5Uonc-ZqUMc9VLbyR0c-Fae1O5gTdgfA--pARdyy9k_0000__y30000)
 ```
 
 ---
@@ -87,7 +87,7 @@ Quản lý thông tin nhân viên và quyền truy cập hệ thống.
 
 ### Sơ đồ
 ```
-[UserController] --> [IUserDatabase] --> [UserDatabase] --> [Database]
+![Diagram](https://www.planttext.com/api/plantuml/png/p58nZi8m4EpzYXNLKS03h1D2G4D1XNZ0aYmHmdOYxmRfTF0o2fx45x0jf2GGYOQ2BMnhTZmUhUTskKvPq4jjZQemEs11CDWm-HMwSBRa1DRrblzOo0xWNq6ep20pHDQyTE9BOyW_MgaoJoWK-pzrM7IY3ZNCoj8GkeQOaw4MSRdGi1Q_TqKVkQxojwfdbRQz4_8xp0YMaRH0mIqojJqo7Z_ki23fPqQqxQyPu1TRQrlgNcjmXvPUqP28BlhGVahCQFBqFJg-mudQRVoUnkFEk7hbWbxohS6cyB8wgocvF6Rx3W00__y30000)
 ```
 
 ---
@@ -108,9 +108,9 @@ Tạo các báo cáo về lương, dự án, hoặc hoạt động nhân viên.
 3. `ReportGenerator` truy vấn dữ liệu từ cơ sở dữ liệu và tạo báo cáo.
 4. **Output**: Báo cáo được xuất ra file hoặc gửi qua email.
 
-### Sơ đồ
+# Sơ đồ
 ```
-[ReportController] --> [IReportGenerator] --> [ReportGenerator] --> [Database]
+![Diagram](https://www.planttext.com/api/plantuml/png/p58nZi8m4EpzYXNLKS03h1D2G4D1XNZ0aYmHmdOYxmRfTF0o2fx45x0jf2GGYOQ2BMnhTZmUhUTskKvPq4jjZQemEs11CDWm-HMwSBRa1DRrblzOo0xWNq6ep20pHDQyTE9BOyW_MgaoJoWK-pzrM7IY3ZNCoj8GkeQOaw4MSRdGi1Q_TqKVkQxojwfdbRQz4_8xp0YMaRH0mIqojJqo7Z_ki23fPqQqxQyPu1TRQrlgNcjmXvPUqP28BlhGVahCQFBqFJg-mudQRVoUnkFEk7hbWbxohS6cyB8wgocvF6Rx3W00__y30000)
 ```
 
 ---
